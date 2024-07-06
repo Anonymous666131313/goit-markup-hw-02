@@ -35,6 +35,11 @@ a {
 }
 .logo-part {
 }
+
+.header-nav-link:hover,
+.header-naw-link:focus {
+  color: #404bbf;
+}
 .header-nav-list {
 }
 .header-nav-item {
@@ -46,8 +51,7 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.new-link:hover,
-.new-link:focus,
+
 .header-contacts-link:hover,
 .header-contacts-link:focus {
   color: #404bbf;
@@ -70,8 +74,6 @@ a {
 /* -------HERO-------- */
 .hero {
   background: #2e2f42;
-  width: 1440px;
-  height: 600px;
 }
 .hero-title {
   font-weight: 700;
@@ -87,11 +89,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
 }
 
@@ -123,8 +120,6 @@ a {
 /* -------TEAM-------- */
 
 .team {
-  width: 1440px;
-  height: 732px;
   background: #f4f4fd;
 }
 .team-title {
