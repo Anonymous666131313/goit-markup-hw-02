@@ -117,7 +117,7 @@ a {
 .features-list {
 }
 .features-item {
-  background-color: #FFFFFF;
+
 }
 .features-subtitle {
   font-weight: 500;
@@ -160,6 +160,7 @@ a {
 .team-list {
 }
 .team-item {
+  background-color: #FFFFFF;
 }
 .team-image {
 }
