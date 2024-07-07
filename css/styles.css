@@ -42,8 +42,17 @@ a {
 }
 .header-nav-list {
 }
+
 .header-nav-item {
 }
+
+.header-nav-item:first-child .header-nav-link:focus {
+  color: #404bbf;
+}
+.header-nav-item:last-child .header-nav-link {
+  pointer-events: none;
+  cursor: default;
+ }
 .header-nav-link {
   font-weight: 500;
   font-size: 16px;
