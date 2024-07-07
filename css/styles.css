@@ -46,13 +46,6 @@ a {
 .header-nav-item {
 }
 
-.header-nav-item:first-child .header-nav-link:focus {
-  color: #404bbf;
-}
-.header-nav-item:last-child .header-nav-link {
-  pointer-events: none;
-  cursor: default;
- }
 .header-nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -101,6 +94,17 @@ a {
   background: #4d5ae5;
 }
 
+.hero-primary-button:hover {
+  background-color: #404bbf;
+  color: #fff;
+  cursor: pointer;
+ }
+
+ .hero-primary-button:focus {
+   background-color: #404bbf;
+   color: #fff;
+   outline: none;
+ }
 /* -------HERO-------- */
 
 /* -------FEATURES-------- */
