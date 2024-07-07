@@ -65,6 +65,9 @@ a {
 }
 .header-contacts-item {
 }
+.header-nav-item:first-child .header-nav-link:focus {
+  color: #404bbf;
+}
 .header-contacts-link {
   font-size: 16px;
   line-height: 1.5;
